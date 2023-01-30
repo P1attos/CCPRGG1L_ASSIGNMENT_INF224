@@ -1,20 +1,20 @@
 public class Character {
     // Attributes
-    int strength;
-    int agility;
-    int intelligence;
+    int age;
+    String color;
+    String behavior;
     String name;
 
     // Method
     public void sayMyName() {
-        System.out.println("\n"+ "Hello I am " + name);
+        System.out.println("\n"+ "Meow I am " + name);
     }
 
     // Constructor
-    public Character(int str, int agi, int intel, String characterName) {
-        strength = str;
-        agility = agi;
-        intelligence = intel;
-        name = characterName;
+    public Character(int age, String catColor, String catBehavior, String catName) {
+        age = age;
+        color = catColor;
+        behavior = catBehavior;
+        name = catName;
     }
 }
