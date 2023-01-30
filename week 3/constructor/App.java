@@ -9,7 +9,7 @@ public class App {
         // Creates a new object named "c2(cat2)" from Character class
         Character c2 = new Character(20, "pink", "Behave", "Marga");
         // Calls the sayMyName method
-        mage.sayMyName();
+        c2.sayMyName();
 
        
     }
